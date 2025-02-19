@@ -1,0 +1,28 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: action_greet
+  - intent: PF
+  - action: action_pf
+  - intent: Payroll_Att
+  - action: action_payroll
+  - intent: Attendance
+  - action: action_attendance
+  - intent: Payroll
+  - action: action_pay
+  - intent: Reimbursement
+  - action: action_reimbursement_menu
+  - intent: TA
+  - action: action_travel_allowance
+  - intent: DS
+  - action: action_Driver_salary
+  - intent: PA
+  - action: action_Petrol_allowance
+  - intent: goodbye
+  - action: action_goodbye
+  - intent: thanks
+  - action: action_thanks

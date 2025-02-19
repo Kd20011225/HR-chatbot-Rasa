@@ -1,0 +1,160 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+- intent: PF
+  examples: |
+    - What is my PF amount?
+    - Can you give me my PF details?
+    - PF balance
+    - PF details
+    - How much is my PF?
+    - What is my current PF balance?
+    - Can you tell me the amount in my PF account?
+    - I want to know my PF details, can you help?
+    - How can I check my PF balance?
+    - Can you provide information about my PF contributions?
+    - What is the status of my PF withdrawal request?
+    - how can i use PF Withdrawal request?
+    - how can transfer my pf amount or balance?
+    - could you please tell me the PF Claim Status?
+
+    
+- intent: Payroll_Att
+  examples: |
+    - show me the payroll and attatendance
+    - payroll and attatendance options
+    - What are my options for payroll and attendance?
+    - Can you show me the payroll and attendance menu?
+    - I need to access payroll and attendance information, what should I do?
+    - How can I see my payroll and attendance details?
+    - Where can I find the payroll and attendance section?
+    - How do I access payroll and attendance options?
+
+- intent: Payroll
+  examples: |
+    - What is my payroll for this month?
+    - Can you tell me my salary?
+    - How much will I get paid this month?
+    - Payroll details
+    - How much will I be paid this month?
+    - What is my salary for this month?
+    - Can you tell me my payroll details?
+    - How much money will I receive this month?
+    - I would like to know my payroll information.
+    - What is the amount I will receive in my paycheck?
+    - can you please provide salary slip?
+    - how can i generate salary slip?
+
+- intent: Attendance
+  examples: |
+    - can you tell me the attendance percentage for this month?
+    - Can you tell me my attendance?
+    - attendance details
+    - What is my attendance percentage for this month?
+    - How many days have I been present this month?
+    - Can you tell me my attendance details?
+    - I want to know my attendance status for this month
+    - How many days have I been absent this month?
+    - Can you provide me with my attendance report for this month?
+
+- intent: Reimbursement
+  examples: |
+    - Can I claim for reimbursement?
+    - How can I claim my reimbursement?
+    - Reimbursement process
+    - Reimbursement menu
+    - What expenses can I claim for reimbursement?
+    - How do I submit a reimbursement claim?
+    - Is there a limit on how much I can claim for reimbursement?
+    - Can I claim reimbursement for office supplies?
+    - What is the timeline for submitting a reimbursement claim?
+    - How do I track the status of my reimbursement claim?
+
+- intent: TA
+  examples: |
+    - Can you tell me about travel allowance?
+    - How can I claim travel allowance?
+    - Travel reimbursement process
+    - What is the limit for travel allowance?
+    - How much can I claim for travel expenses?
+    - What are the requirements for claiming travel allowance?
+    - Can I claim travel allowance for my daily commute?
+    - How often can I claim travel allowance?
+    - Are there any restrictions on the types of expenses that can be claimed under travel allowance?
+
+- intent: DS
+  examples: |
+    - What is driver's salary?
+    - How can I claim driver's salary?
+    - Driver's salary reimbursement process
+    - What is the limit for driver's salary?
+    - How do I calculate the driver's salary for this month?
+    - What documents do I need to submit to claim driver's salary?
+    - Can you tell me the process for reimbursing driver's salary?
+    - Is there a deadline for claiming driver's salary?
+    - What is the maximum amount that can be claimed for driver's salary?
+
+- intent: PA
+  examples: |
+    - How can I claim petrol allowance?
+    - Petrol reimbursement process
+    - What is the limit for petrol allowance?
+    - Can you tell me about petrol allowance?
+    - How do I claim my petrol allowance?
+    - What documents do I need to submit for petrol reimbursement?
+    - How much can I claim for petrol allowance?
+    - Can you explain the petrol allowance policy?
+    - What is the process for claiming petrol allowance?
+    - Where can I find the petrol allowance claim form?
+    - How often can I claim petrol allowance?
+    - Are there any restrictions on the distance or frequency of travel for claiming petrol allowance?
+
+- intent: Language_Opt
+  examples: |
+    - Language Options
+    - Languages
+    - Can I switch to another language?
+    - Is it possible to change the language?
+    - How do I select a different language?
+    - Can you show me the language options?
+    - What are the available language choices?
+    - How can I switch to Malayalam?
+    - Can you help me change the language to English?
+
+- intent: thanks
+  examples: |
+    - I want my pf details
+    - PF Balance Enquiry
+    - PF withdrawal request
+    - PF Claim Status
+    - PF Transfer Enquiry

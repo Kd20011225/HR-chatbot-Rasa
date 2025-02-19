@@ -1,0 +1,46 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - PF
+  - PA
+  - Payroll
+  - Attendance
+  - Reimbursement
+  - TA
+  - DS
+  - Payroll_Att
+  - thanks
+  - Language_Opt
+
+entities: 
+ - language
+     
+
+slots:
+  language:
+    type: text
+    mappings:
+     - type: from_entity
+       entity: language
+
+
+actions:
+  - action_greet
+  - action_goodbye 
+  - action_pf
+  - action_attendance
+  - action_pay
+  - action_default
+  - action_reimbursement_menu
+  - action_travel_allowance
+  - action_Driver_salary
+  - action_Petrol_allowance
+  - action_thanks
+  - action_language
+  - action_payroll
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

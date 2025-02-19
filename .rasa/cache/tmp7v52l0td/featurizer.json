@@ -1,0 +1,65 @@
+{
+  "type": "IntentMaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "Attendance": 0,
+        "DS": 1,
+        "Language_Opt": 2,
+        "PA": 3,
+        "PF": 4,
+        "Payroll": 5,
+        "Payroll_Att": 6,
+        "Reimbursement": 7,
+        "TA": 8,
+        "back": 9,
+        "goodbye": 10,
+        "greet": 11,
+        "nlu_fallback": 12,
+        "out_of_scope": 13,
+        "restart": 14,
+        "session_start": 15,
+        "thanks": 16
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "action_greet": 13,
+        "action_goodbye": 14,
+        "action_pf": 15,
+        "action_attendance": 16,
+        "action_pay": 17,
+        "action_default": 18,
+        "action_reimbursement_menu": 19,
+        "action_travel_allowance": 20,
+        "action_Driver_salary": 21,
+        "action_Petrol_allowance": 22,
+        "action_thanks": 23,
+        "action_language": 24,
+        "action_payroll": 25
+      },
+      "entities": {
+        "language": 0
+      },
+      "slots": {
+        "language_0": 0
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

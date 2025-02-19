@@ -1,0 +1,74 @@
+
+version: "3.1"
+
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: action_goodbye
+
+- rule: Get PF details
+  steps:
+  - intent: PF
+  - action: action_pf
+
+
+- rule: payroll and attendence menu
+  steps: 
+  - intent: Payroll_Att
+  - action: action_payroll
+
+
+- rule: Get attendence details
+  steps:
+  - intent: Attendance
+  - action: action_attendance
+
+
+- rule: Get payment details
+  steps:
+  - intent: Payroll
+  - action: action_pay
+
+
+- rule: Get language options
+  steps:
+  - intent: Language_Opt
+  - action: action_language
+
+- rule: Get menu options
+  steps:
+  - intent: greet
+  - action: action_greet
+
+
+- rule: Provide reimbursement menu
+  steps:
+  - intent: Reimbursement
+  - action: action_reimbursement_menu
+
+
+- rule: Get travel allowance details
+  steps:
+  - intent: TA
+  - action: action_travel_allowance
+
+
+- rule: Get driver salary details
+  steps:
+  - intent: DS
+  - action: action_Driver_salary
+
+
+- rule: Get petrol allowance details
+  steps:
+  - intent: PA
+  - action: action_Petrol_allowance
+
+- rule: After user reply any question
+  steps:
+  - intent: thanks
+  - action: action_thanks
+
